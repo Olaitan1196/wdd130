@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us! Reach out for any inquiries, questions, or reservations. We're here to assist you with all your whitewater rafting needs.">
+    <title>Contact Us | Whitewater Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Whitewater Rafting Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <h2>Contact Us</h2>
+
+        <section id="company-info">
+            <h3>Company Information</h3>
+            <p>Address: 123 Adventure Road, Rafting City, RC 12345</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Email: contact@whitewaterrafting.com</p>
+
+            <!-- Embedded Google Map -->
+            <h4>Our Location</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </section>
+
+        <section id="employee-profiles">
+            <h3>Meet Our Team</h3>
+            <div class="employee-profile">
+                <img src="images/employee1.webp" alt="Employee 1" width="100" height="100">
+                <p>John Doe - Rafting Guide</p>
+            </div>
+            <div class="employee-profile">
+                <img src="images/employee2.jpg" alt="Employee 2" width="100" height="100">
+                <p>Jane Smith - Customer Support</p>
+            </div>
+            <div class="employee-profile">
+                <img src="images/employee3.jpg" alt="Employee 3" width="100" height="100">
+                <p>Sarah Johnson - Operations Manager</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact-form">
+            <h3>Send Us Your Inquiry</h3>
+            <form action="/submit" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>What is your inquiry about?</legend>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="general" name="inquiry" value="General Inquiry">
+
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="reservation" name="inquiry" value="Reservation Question">
+
+                    <label for="suggestion">Website Suggestion</label>
+                    <input type="radio" id="suggestion" name="inquiry" value="Website Suggestion">
+                </fieldset>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <button type="submit">Submit Your Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Whitewater Rafting Adventures</p>
+        <p><a href="contact-wireframe.png" target="_blank">View Contact Us Wireframe</a></p>
+    </footer>
+
+</body>
+</html>
